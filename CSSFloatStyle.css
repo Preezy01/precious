@@ -1,0 +1,121 @@
+*{
+/*Setting all elements with a box-sizing attribute to be a border-box.*/
+	box-sizing: border-box;
+	}
+	
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Style the header */
+header {
+	background-color: black;
+	padding: 15px 20px;
+	text-align: center;
+	font-size: 35px;
+	color: orange;
+	background-image:precious.jpg;
+}
+
+/*Setting the style for the article section. width is 20%*/
+nav {
+	float: left;
+	width: 20%;
+	background: black;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0 ;
+}
+	
+	
+li a {
+/*We are setting the styles for each anchor element in each list item*/
+	display: block;
+	color: green;
+	padding: 8px 16px;
+}
+
+li a:hover {
+	/*We are changing the link color when the mouse hovers over it*/
+	background-color: lightgreen;
+	color: white;
+}
+
+/*Setting the style for the article section. width is 60%*/
+article {
+	float: left;
+	padding: 20px;
+	width: 60%;
+	background-color: grey;
+}
+
+/*Setting the style for the aside section. width is 20%*/
+aside {
+	float: left;
+	padding: 20px;
+	width: 20%;
+	background: white;
+}
+
+/*Note from above code: Nav width + article width + aside width = 100%
+These three elements are found inside the section element. They can each be adjusted to different widths, but the total must always equal 100%*/
+
+/*Clear floats after the column */
+	Section: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Style the footer */
+footer {
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+}
+
+/*This code is used to resize the section coloumns/boxes automatically and make them stack up on top of each other if there is not enough space on the screen.*/
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
